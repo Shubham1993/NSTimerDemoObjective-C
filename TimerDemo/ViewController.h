@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *startBtn;
+
+- (IBAction)resumeTimer:(id)sender;
+
+- (IBAction)startTimer:(id)sender;
+
+- (IBAction)pauseTimer:(id)sender;
 
 @end
 
